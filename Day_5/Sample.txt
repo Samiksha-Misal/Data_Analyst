@@ -1,0 +1,41 @@
+Basic Git Commands
+
+git config --global user.name "Your Name" - setting up git
+git config --global user.email "your-email@example.com"
+git init - Initializes a new Git repository in the current directory.
+git clone <repository_url> - Clones an existing GitHub repository to your local machine.
+git status - Shows the current status of your repository (modified, staged, untracked files).
+git add . - Stages all changes in the current directory.
+git add <filename> - Stages a specific file.
+git commit -m "Your commit message" - Commits staged changes with a message.
+git push origin <branch-name> - Pushes local changes to the remote repository.
+git pull origin <branch-name> - Fetches and merges the latest changes from the remote repository.
+git log - Shows commit history.
+git branch <new-branch-name> - Creates a new branch.
+git checkout -b <new-branch-name> - Creates and switches to a new branch.
+git remote add origin <repository_url> - Links your local repository to a remote repository.
+git remote -v - Shows the remote repository is linked to local repository.
+
+
+Basic Linux Commands
+
+ls -  Lists files in the current directory.
+cd <directory> - Changes directory.
+cd .. -  Moves up one directory level.
+pwd - Displays the current directory path.
+mkdir <directory-name> - Creates a new directory.
+rm <filename> - Deletes a file.
+cls -  Clears the screen in the Windows Command Prompt.
+touch filename.txt - Creates an empty file if it doesn’t exist or updates it.
+
+
+Cloning a FastAPI Repository
+
+Inside the bootcoding folder,a new folder named clone was created.
+we navigate to the clone folder and opened cmd from there.
+In the command prompt(cmd),type the command "code ." to open vs code with clone folder.
+To clone FastAPI repository,we have copied the FastAPI repository url from gitingest.
+Then,we used the command "git clone <url>" to clone FastAPI repository.
+After cloning, we have studied the directory structure of the FastAPI.
+
+python
