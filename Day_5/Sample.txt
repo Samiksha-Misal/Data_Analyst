@@ -37,5 +37,3 @@ In the command prompt(cmd),type the command "code ." to open vs code with clone 
 To clone FastAPI repository,we have copied the FastAPI repository url from gitingest.
 Then,we used the command "git clone <url>" to clone FastAPI repository.
 After cloning, we have studied the directory structure of the FastAPI.
-
-python
