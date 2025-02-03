@@ -11,7 +11,7 @@ plt.plot(days,price, marker="*",  ms = 15, mec="black", mfc="pink", linestyle="d
 
 plt.title("Sales over Days", fontsize=15, color="brown", loc="left")
 plt.xlabel("Days", fontsize=15)
-plt.ylabel("Sales", fontsize=15)
+plt.ylabel("Sales & Price", fontsize=15)
 plt.grid(axis = 'y', color="grey", linestyle='--' ,linewidth=0.5)
 
 
@@ -23,7 +23,7 @@ plt.subplot(1,2,2)
 plt.plot(subjects ,marks, marker="*",  ms = 15, mec="black", mfc="pink", linestyle="dashed", color="blue", linewidth="1")
 
 plt.title("Marks in different subjects", fontsize=15, color="brown", loc="left")
-plt.xlabel("Subject", fontsize=15)
+plt.xlabel("Subjects", fontsize=15)
 plt.ylabel("Marks", fontsize=15)
 plt.grid(axis = 'y', color="grey", linestyle='--' ,linewidth=0.5)
 plt.show()
