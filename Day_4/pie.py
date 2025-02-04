@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 Subjects = ["DSA","web development","OS","AI"]
-Mark = [65,70,80,75,90]
+#Mark = [65,70,80,75,90]
 Marks = [90,80,85,95]
 
 myexplode = [0.2,0,0,0]

@@ -35,6 +35,54 @@ Python Command
 3. deactivate - Exits the virtual environment and returns to the system’s Python.
 
 
+Matplotlib Bar Chart 
+1. Import Library:
+   Use import matplotlib.pyplot as plt to load the Matplotlib library for creating visualizations.
+
+2. Define Data:
+   Create two lists: one for the categories (e.g., Fruits) and the other for the corresponding values (e.g., Quantity).
+
+3. Create Bar Chart:
+   Use plt.bar() to generate the bar chart. Customize the bars' appearance, such as:
+   Colors for the bars.
+   Bar Width and Edge Styles.
+   Transparency (alpha) to control how see-through the bars are.
+
+4. Add Labels & Titles:
+   Improve chart readability by adding:
+   X-axis Label with plt.xlabel().
+   Y-axis Label with plt.ylabel().
+   Title with plt.title().
+
+5. Display the Chart:
+   Finally, use plt.show() to display the chart on screen.
+
+
+Matplotlib Pie Chart 
+1. Import Library:
+   Use import matplotlib.pyplot as plt to load the Matplotlib library for creating visualizations.
+
+2. Define Data:
+   Create a list of Subjects (e.g., DSA, Web Development, OS, AI) and a corresponding list of Marks (e.g., 90, 80, 85, 95).
+
+3. Create Pie Chart:
+   Use plt.pie() to create the pie chart with the following customizations:
+   Explode Effect to highlight the DSA slice (myexplode = [0.2, 0, 0, 0]).
+   Color Scheme for each slice using mycolors.
+   Start Angle set to 90° and slices arranged in a counterclockwise direction.
+   Percentage Display showing the distribution of marks using autopct="%0.2f%%".
+   Shadow Effect for a 3D appearance.
+   Label Positioning slightly outward (labeldistance=1.2).
+   Border Styling with grey edges and linewidth of 2.
+
+4. Add Title:
+   Title the chart "Marks in different Subject" with a font size of 15, bold text, and padding of 20 for spacing.
+
+5. Display the Chart:
+   Use plt.show() to display the pie chart.
+
+
+
 Cloning a FastAPI Repository
 
 Inside the bootcoding folder,a new folder named clone was created.
