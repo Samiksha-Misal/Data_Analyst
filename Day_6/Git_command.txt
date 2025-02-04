@@ -1,0 +1,45 @@
+Basic Git Commands
+
+1. git config --global user.name "Your Name" - setting up git
+   git config --global user.email "your-email@example.com"
+2. git init - Initializes a new Git repository in the current directory.
+3. git clone <repository_url> - Clones an existing GitHub repository to your local machine.
+4. git status - Shows the current status of your repository (modified, staged, untracked files).
+5. git add . - Stages all changes in the current directory.
+6. git add <filename> - Stages a specific file.
+7. git commit -m "Your commit message" - Commits staged changes with a message.
+8. git push origin <branch-name> - Pushes local changes to the remote repository.
+9. git pull origin <branch-name> - Fetches and merges the latest changes from the remote repository.
+10. git log - Shows commit history.
+11. git branch <new-branch-name> - Creates a new branch.
+12. git checkout -b <new-branch-name> - Creates and switches to a new branch.
+13. git remote add origin <repository_url> - Links your local repository to a remote repository.
+14. git remote -v - Shows the remote repository is linked to local repository.
+
+
+Basic Linux Commands
+
+1. ls -  Lists files in the current directory.
+2. cd <directory> - Changes directory.
+3. cd .. -  Moves up one directory level.
+4. pwd - Displays the current directory path.
+5. mkdir <directory-name> - Creates a new directory.
+6. rm <filename> - Deletes a file.
+7. cls -  Clears the screen in the Windows Command Prompt.
+8. touch filename.txt - Creates an empty file if it doesn’t exist or updates it.
+
+
+Python Command
+1. python -m venv myenv - Creates a virtual environment named myenv in the current directory.
+2. myenv/Scripts/activate - Activate virtual environment
+3. deactivate - Exits the virtual environment and returns to the system’s Python.
+
+
+Cloning a FastAPI Repository
+
+Inside the bootcoding folder,a new folder named clone was created.
+we navigate to the clone folder and opened cmd from there.
+In the command prompt(cmd),type the command "code ." to open vs code with clone folder.
+To clone FastAPI repository,we have copied the FastAPI repository url from gitingest.
+Then,we used the command "git clone <url>" to clone FastAPI repository.
+After cloning, we have studied the directory structure of the FastAPI.
