@@ -82,6 +82,35 @@ Matplotlib Pie Chart
    Use plt.show() to display the pie chart.
 
 
+Matplotlib Plot
+1. Import Library:
+   Use import matplotlib.pyplot as plt to load Matplotlib for creating visualizations.
+
+2. Define Data:
+   First Plot (Sales & Price over Days):
+   Days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+   Sales and Price data: [160, 150, 140, 145, 175, 165, 180] and [174, 160, 185, 150, 160, 175, 190].
+
+   Second Plot (Marks in Different Subjects):
+   Subjects: ["DBMS", "CC", "OS", "AIML", "DSA", "Python", "TOC"]
+   Marks: [75, 80, 65, 74, 90, 84, 70].
+
+3. Create Plots:
+   First Subplot (Sales and Price):
+   Line plots for Sales and Price with distinct markers (s for square, o for circle), line colors, and customizations (marker size, color, edge color, and line width).
+   Second Subplot (Marks):
+   Line plot for Marks with square markers and orange color.
+
+4. Customization:
+   Legends: Displayed for both plots with fontsize=8.
+   Titles: Set titles with bold text and specific font size (fontsize=15).
+   Labels: X and Y-axis labels with specific font size and color.
+   Grid: Added to both plots with grey lines, alpha=0.4, and a linewidth=0.5.
+
+5. Display:
+   Use plt.subplot(1, 2, 1) and plt.subplot(1, 2, 2) to create two subplots side by side.
+   Use plt.show() to display the final visualization.
+
 
 Cloning a FastAPI Repository
 
